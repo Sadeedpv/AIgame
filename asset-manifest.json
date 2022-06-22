@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/tactactoe/static/css/main.7d192e2f.css",
+    "main.js": "/tactactoe/static/js/main.169de457.js",
+    "index.html": "/tactactoe/index.html",
+    "main.7d192e2f.css.map": "/tactactoe/static/css/main.7d192e2f.css.map",
+    "main.169de457.js.map": "/tactactoe/static/js/main.169de457.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7d192e2f.css",
+    "static/js/main.169de457.js"
+  ]
+}
