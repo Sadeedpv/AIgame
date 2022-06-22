@@ -1,0 +1,26 @@
+button{
+    margin: 40px;
+    padding: 8px 10px 8px 10px;
+    color: #1b1b32;
+    background-color: #d0d0d5;
+    border: 2px solid #1b1b32;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-weight: 650;
+}
+
+button:hover{
+    background-color: #1b1b32;
+}
+
+a{
+    text-decoration: none;
+    color :#1b1b32
+}
+button:hover a{
+    color: #d0d0d5;
+    
+}
