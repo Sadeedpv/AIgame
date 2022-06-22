@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/tactactoe/static/css/main.7d192e2f.css",
-    "main.js": "/tactactoe/static/js/main.169de457.js",
-    "index.html": "/tactactoe/index.html",
-    "main.7d192e2f.css.map": "/tactactoe/static/css/main.7d192e2f.css.map",
-    "main.169de457.js.map": "/tactactoe/static/js/main.169de457.js.map"
+    "main.css": "/Tactactoe/static/css/main.7d192e2f.css",
+    "main.js": "/Tactactoe/static/js/main.d020b6a3.js",
+    "index.html": "/Tactactoe/index.html",
+    "main.7d192e2f.css.map": "/Tactactoe/static/css/main.7d192e2f.css.map",
+    "main.d020b6a3.js.map": "/Tactactoe/static/js/main.d020b6a3.js.map"
   },
   "entrypoints": [
     "static/css/main.7d192e2f.css",
-    "static/js/main.169de457.js"
+    "static/js/main.d020b6a3.js"
   ]
 }
