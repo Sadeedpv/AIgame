@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Tactactoe/static/css/main.7d192e2f.css",
-    "main.js": "/Tactactoe/static/js/main.d020b6a3.js",
-    "index.html": "/Tactactoe/index.html",
-    "main.7d192e2f.css.map": "/Tactactoe/static/css/main.7d192e2f.css.map",
-    "main.d020b6a3.js.map": "/Tactactoe/static/js/main.d020b6a3.js.map"
+    "main.css": "/AIgame/static/css/main.7d192e2f.css",
+    "main.js": "/AIgame/static/js/main.9b15581c.js",
+    "index.html": "/AIgame/index.html",
+    "main.7d192e2f.css.map": "/AIgame/static/css/main.7d192e2f.css.map",
+    "main.9b15581c.js.map": "/AIgame/static/js/main.9b15581c.js.map"
   },
   "entrypoints": [
     "static/css/main.7d192e2f.css",
-    "static/js/main.d020b6a3.js"
+    "static/js/main.9b15581c.js"
   ]
 }
