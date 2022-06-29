@@ -122,6 +122,7 @@ function Table() {
         alignItems:'center',
         justifyContent:'center',
         fontSize:'25px',
+        color:'green'
     }}>{ winner && winner != 'No winner' ? (`${winner} won!`):'No one won!'}
 
     
