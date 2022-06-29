@@ -5,7 +5,8 @@ import './Player.css'
 function AI() {
   return (
     <div className='grid'>
-      <Table />
+      {/* <Table /> */}
+      The game is not ready yet.
     </div>
   )
 }
