@@ -62,11 +62,18 @@ function Table() {
     
 
   return (
-    <>
+    <div style={{
+        display:'flex',
+        flexDirection:'column',        
+        alignItems:'center',
+        justifyContent:'center'
+    }}>
 
     <div style={{
         display:'flex',
         alignItems:'center',
+        flexDirection:'row',
+        flexWrap:'wrap',
         justifyContent:'center',
         marginTop:'-16px'
     }}>
@@ -106,11 +113,11 @@ function Table() {
     </div>
 
     <div style={{
-        padding:'5px',
         fontSize:'25px',
+        padding:'3px',
+        fontWeight:'650'
     }}>{turn} turn!</div>
     <div style={{
-        padding:'5px',
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
@@ -157,7 +164,7 @@ function Table() {
         </tr>
         </tbody>
     </table>
-    </>
+    </div>
   )
 }
 
