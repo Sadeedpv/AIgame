@@ -7,6 +7,7 @@ function Aigame() {
     
     const [winner, setwinner] = React.useState('No winner');
     const [undo, setundo] = React.useState(null);
+    const [turn, setturn] = React.useState('X');
 
     const [board, setboard] = React.useState({
         '0': '-',
@@ -22,9 +23,10 @@ function Aigame() {
 
 
     function handleEvent(e){
-        if (board[e] === '-' && winner === 'No winner'){
+        if (board[e] === '-' && winner === 'No winner' && turn === 'O'){
             setundo(e);
             setboard(prevstate => ({...prevstate, [e]: 'O'}))
+            setturn('X');
             
         }
     }
@@ -75,6 +77,7 @@ function Aigame() {
     axios.request(options).then(function (response) {
         if (winner === 'No winner'){
             setboard(prevstate => ({...prevstate, [response.data.recommendation]: 'X'}))
+            setturn('O');
             
         }
     }).catch(function (error) {
@@ -120,6 +123,7 @@ function Aigame() {
                 '8': '-'
             });
             setundo(null);
+            setturn('X')
         }}>Reset</button>
     </div>
 
@@ -128,7 +132,7 @@ function Aigame() {
         alignItems:'center',
         justifyContent:'center',
         fontSize:'25px',
-        color:'green'
+        color:'green',
     }}>{ winner && winner !== 'No winner' ? (`${winner} won!`):'No one won!'}
 
     

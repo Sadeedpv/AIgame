@@ -117,15 +117,14 @@ function Table() {
         padding:'3px',
         fontWeight:'650'
     }}>{turn} turn!</div>
+
     <div style={{
         display:'flex',
         alignItems:'center',
         justifyContent:'center',
         fontSize:'25px',
         color:'green'
-    }}>{ winner && winner !== 'No winner' ? (`${winner} won!`):'No one won!'}
-
-    
+    }}>{ winner && winner !== 'No winner' ? (`${winner} won!`):'No one won!'}    
     </div>
 
     <table>
