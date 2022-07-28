@@ -95,6 +95,11 @@ function Aigame() {
         alignItems:'center',
         justifyContent:'center'
     }}>
+        <p style={{
+            fontSize:'1.4rem',
+        }}
+        
+        >You are playing as 'O'</p>
 
     <div style={{
         display:'flex',
