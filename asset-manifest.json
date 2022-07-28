@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/AIgame/static/css/main.7e6e98e2.css",
-    "main.js": "/AIgame/static/js/main.ae489499.js",
+    "main.js": "/AIgame/static/js/main.8a92872a.js",
     "index.html": "/AIgame/index.html",
     "main.7e6e98e2.css.map": "/AIgame/static/css/main.7e6e98e2.css.map",
-    "main.ae489499.js.map": "/AIgame/static/js/main.ae489499.js.map"
+    "main.8a92872a.js.map": "/AIgame/static/js/main.8a92872a.js.map"
   },
   "entrypoints": [
     "static/css/main.7e6e98e2.css",
-    "static/js/main.ae489499.js"
+    "static/js/main.8a92872a.js"
   ]
 }
